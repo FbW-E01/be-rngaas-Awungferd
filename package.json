@@ -1,0 +1,24 @@
+{
+  "name": "be-rngaas-awungferd",
+  "version": "1.0.0",
+  "description": "- Create a Node web server that listens to port 8081. - When the server receives a request, it just responds with a random number",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awungferd/be-rngaas-Awungferd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Awungferd/be-rngaas-Awungferd/issues"
+  },
+  "homepage": "https://github.com/Awungferd/be-rngaas-Awungferd#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
