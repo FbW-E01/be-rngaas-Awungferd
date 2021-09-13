@@ -2,7 +2,7 @@
   "name": "be-rngaas-awungferd",
   "version": "1.0.0",
   "description": "- Create a Node web server that listens to port 8081. - When the server receives a request, it just responds with a random number",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Awungferd/be-rngaas-Awungferd#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "nodemon": "^2.0.12"
   }
 }
